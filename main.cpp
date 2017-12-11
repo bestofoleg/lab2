@@ -2,7 +2,7 @@
 #include "oop.h"
 
 using namespace std;
-
+/*
 class Base
 {
 public:
@@ -26,6 +26,7 @@ void Function(const Base &obj)
     cout << "* Call method func() for object obj" << endl;
     obj.func();
 }
+*/
 
 int main(int argc, char *argv[])
 {
