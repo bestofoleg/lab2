@@ -1,4 +1,5 @@
 #include <iostream>
+#include "oop.h"
 
 using namespace std;
 
@@ -39,6 +40,10 @@ int main(int argc, char *argv[])
 
     cout << "* Call method func() for object child" << endl;
     Function(child);
+
+	cout<<"1 + 1 = ";
+	IntegerAdder ia(1,1);
+	cout<<ia.getSum()<<endl;
 
     return 0;
 }
