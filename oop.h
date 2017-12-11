@@ -1,3 +1,6 @@
+#ifndef oop_H
+#define oop_H
+
 class IntegerAdder
 {
 	private:
@@ -29,3 +32,5 @@ public:
 };
 
 void Function(const Base &obj);
+
+#endif /*oop.h*/
